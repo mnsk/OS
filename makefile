@@ -1,5 +1,6 @@
+ cc = gcc
 exec:
-	gcc -pthread -o shell shell.c -Wall
+	${cc} -pthread -o shell shell.c -Wall
 
 clean:
 	rm -rf shell
